@@ -5,3 +5,6 @@
 
 ## Install kubectl cli
 * Install steps [here](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+
+## Install Helm chart
+* Install steps [here](https://helm.sh/docs/intro/install/#from-apt-debianubuntu)
