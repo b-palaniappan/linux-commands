@@ -2,6 +2,11 @@
 * Install setup for k3s [here](https://rancher.com/docs/k3s/latest/en/installation/install-options/)
 * Kubeconfig is at `/etc/rancher/k3s/k3s.yaml`
 * Copy to config file to `~/.kube/config` location.
+* Change Owner and Mod of config file,
+```
+sudo chown john:john ~/.kube/config     # change ownership of the file to user
+sudo chown 400 ~/.kube/config           # only read access to the user
+```
 
 ## Install kubectl cli
 * Install steps [here](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
