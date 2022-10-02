@@ -18,3 +18,6 @@ sudo chown 400 ~/.kube/config           # only read access to the user
 ## Install Longhorn
 * Install Open-iSCSI `apt install open-iscsi` for Long Horn
 * To install Long Horn, steps [here](https://rancher.com/docs/k3s/latest/en/storage/)
+
+## Insall k9s
+* Installation steps - [here](https://k9scli.io/topics/install/)
