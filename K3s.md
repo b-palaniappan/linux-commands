@@ -20,4 +20,6 @@ sudo chown 400 ~/.kube/config           # only read access to the user
 * To install Long Horn, steps [here](https://rancher.com/docs/k3s/latest/en/storage/)
 
 ## Insall k9s
-* Installation steps - [here](https://k9scli.io/topics/install/)
+* `wget` latest version of linux 64 binary from github releast page [here](https://github.com/derailed/k9s/releases)
+* Unzip `tar.gz` file using `tar -xvzf k9s_Linux_x86_64.tar.gz`
+* Run k9s using `./k9s`
