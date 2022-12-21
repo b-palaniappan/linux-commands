@@ -5,7 +5,7 @@
 * Change Owner and Mod of config file,
 ```
 sudo chown john:john ~/.kube/config     # change ownership of the file to user
-sudo chown 400 ~/.kube/config           # only read access to the user
+sudo chmod 400 ~/.kube/config           # only read access to the user
 ```
 * To uninstall K3s, steps [here](https://rancher.com/docs/k3s/latest/en/installation/uninstall/)
 
