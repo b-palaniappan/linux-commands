@@ -23,3 +23,6 @@ sudo chmod 400 ~/.kube/config           # only read access to the user
 * `wget` latest version of linux 64 binary from github releast page [here](https://github.com/derailed/k9s/releases)
 * Unzip `tar.gz` file using `tar -xvzf k9s_Linux_x86_64.tar.gz`
 * Run k9s using `./k9s`
+
+## Firewall Setup
+* Allow http and https ports from internal network only. Ex., `sudo ufw allow from 192.168.100.0/24 to any port http`
